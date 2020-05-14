@@ -1,5 +1,18 @@
+@media screen and (max-width: 850px) {
+  .items {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 /* Smartphones */
-@media (max-width: 500px) {
+@media screen and (max-width: 500px) {
+  header,
+  section,
+  footer {
+    padding: 2rem;
+  }
+
   nav a {
     display: none;
   }
@@ -17,7 +30,7 @@
   }
 
   header .name {
-    margin-top: 70%;
+    margin-top: 50%;
   }
 
   header .name p {
@@ -30,6 +43,11 @@
 
   header .description p {
     font-size: 1rem;
+  }
+
+  .work {
+    margin: 0;
+    margin-top: 2rem;
   }
 
   .items {
@@ -50,10 +68,8 @@
   .item-desc h3 {
     display: none;
   }
-}
 
-/* header {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-  } */
+  .item img {
+    height: 200px;
+  }
+}

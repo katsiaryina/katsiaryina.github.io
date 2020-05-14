@@ -94,6 +94,7 @@ header {
 header .name {
   margin-top: 15%;
 }
+
 header .name h1 {
   color: #fff;
   font-size: 4rem;
@@ -194,4 +195,8 @@ header .description {
 #contact {
   background: url("../img/smile-logo.png") no-repeat center center/cover;
   padding-bottom: 6rem;
+}
+
+#contact a {
+  color: #333;
 }

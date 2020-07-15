@@ -12,6 +12,11 @@ body {
   color: #5d6b70;
 }
 
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 h1,
 h2,
 h3,
@@ -63,7 +68,6 @@ nav > * {
 nav .logo {
   background-image: url("../img/smile.svg");
   background-repeat: no-repeat;
-  /* background-size: 100%, auto; */
   max-width: 100px;
   width: 100%;
   margin-right: auto;
@@ -118,19 +122,13 @@ header .description {
   margin-top: 10%;
 }
 
-/* #about {
-  background: rgba(255, 243, 243, 0.3);
-} */
-
 #portfolio {
   background: rgba(182, 255, 244, 0.3);
 }
 
 .items {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .work {
